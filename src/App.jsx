@@ -1,11 +1,10 @@
 import Button from "@mui/material/Button";
-function App() {
-  // const [count, setCount] = useState(0);
+import Board from "./pages/Boards/_id";
 
+function App() {
   return (
     <>
-      <div>Giangdz</div>
-      <Button variant="contained">Hello world</Button>
+      <Board />
     </>
   );
 }
